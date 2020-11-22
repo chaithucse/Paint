@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:columnCount="4"
+    android:rowCount="6">
+
+    <ImageButton
+        android:id="@+id/color_blue"
+        android:layout_width="@dimen/button_width_height"
+        android:layout_height="@dimen/button_width_height"
+        android:layout_margin="@dimen/layout_margin"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/color_red"
+        android:layout_width="@dimen/button_width_height"
+        android:layout_height="@dimen/button_width_height"
+        android:layout_margin="@dimen/layout_margin"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/color_green"
+        android:layout_width="@dimen/button_width_height"
+        android:layout_height="@dimen/button_width_height"
+        android:layout_margin="@dimen/layout_margin"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/color_purple"
+        android:layout_width="@dimen/button_width_height"
+        android:layout_height="@dimen/button_width_height"
+        android:layout_margin="@dimen/layout_margin"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/color_teal"
+        android:layout_width="@dimen/button_width_height"
+        android:layout_height="@dimen/button_width_height"
+        android:layout_margin="@dimen/layout_margin"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/color_black"
+        android:layout_width="@dimen/button_width_height"
+        android:layout_height="@dimen/button_width_height"
+        android:layout_margin="@dimen/layout_margin"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/color_orange"
+        android:layout_width="@dimen/button_width_height"
+        android:layout_height="@dimen/button_width_height"
+        android:layout_margin="@dimen/layout_margin"
+        tools:ignore="ContentDescription" />
+    <ImageButton
+        android:id="@+id/color_yellow"
+        android:layout_width="@dimen/button_width_height"
+        android:layout_height="@dimen/button_width_height"
+        android:layout_margin="@dimen/layout_margin"
+        tools:ignore="ContentDescription" />
+</GridLayout>
